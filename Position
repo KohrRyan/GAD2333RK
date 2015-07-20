@@ -1,0 +1,24 @@
+using UnityEngine;
+using System.Collections;
+
+public class WK2 : MonoBehaviour 
+{
+
+	// Use this for initialization
+	void Start () 
+	{
+		GameObject mySphere01 = GameObject.Find ("Sphere01");
+		Transform mySphere01Transform = mySphere01.transform;
+		Vector3 position = mySphere01Transform.position;
+
+		print ("My Sphere01 is at " + position);
+		print ("The x-coordinate is at " + position.x);
+	
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}

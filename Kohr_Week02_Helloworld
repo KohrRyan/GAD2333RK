@@ -26,7 +26,7 @@ public class Helloworld: MonoBehaviour {
 	}
 	public void SayHello (string nme)
 	{
-		print ("Hello, " + nme);
+		print ("Hello, " + nme);		//The variable nme is never given a value
 	}
 	public void SayGoodbye ()
 	{

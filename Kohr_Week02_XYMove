@@ -36,5 +36,7 @@ public class moveit : MonoBehaviour {
 			this.transform.position = position;
 		}
 
+				//What about moving it up and down on the Y-axis? You were supposed to add that.
+
 	}
 }
